@@ -10,6 +10,7 @@ class tcpdp(
   String $target                              = '3306',
   String $probe_buffer_size                   = '128MB',
   Boolean $probe_immidiate_mode               = true,
+  Optional[String] $probe_snapshot_length     = undef,
   Boolean $log_enable                         = true,
   String $log_format                          = 'json',
   Boolean $log_rotate_enable                  = true,

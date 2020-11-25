@@ -9,6 +9,7 @@ class tcpdp::config(
   $target                    = $tcpdp::target,
   $probe_buffer_size         = $tcpdp::probe_buffer_size,
   $probe_immidiate_mode      = $tcpdp::probe_immidiate_mode,
+  $probe_snapshot_length     = $tcpdp::probe_snapshot_length,
   $log_enable                = $tcpdp::log_enable,
   $log_format                = $tcpdp::log_format,
   $log_rotate_enable         = $tcpdp::log_rotate_enable,

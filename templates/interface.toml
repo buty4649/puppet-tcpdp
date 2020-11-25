@@ -7,6 +7,9 @@ target = "<%= @target %>"
 interface = "<%= @if %>"
 bufferSize = "<%= @probe_buffer_size %>"
 immediateMode = <%= @probe_immidiate_mode %>
+<%- if @probe_snapshot_length %>
+snapshotLength = <%= @probe_snapshot_length%>
+<%- end %>
 
 [log]
 dir = "/var/log/tcpdp/<%= @if %>"
